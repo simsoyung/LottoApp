@@ -10,9 +10,15 @@
 		460E1A562C129A42003F065C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A552C129A42003F065C /* AppDelegate.swift */; };
 		460E1A582C129A42003F065C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A572C129A42003F065C /* SceneDelegate.swift */; };
 		460E1A5A2C129A42003F065C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A592C129A42003F065C /* ViewController.swift */; };
-		460E1A5D2C129A42003F065C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 460E1A5C2C129A42003F065C /* Base */; };
 		460E1A5F2C129A44003F065C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 460E1A5E2C129A44003F065C /* Assets.xcassets */; };
 		460E1A622C129A44003F065C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 460E1A612C129A44003F065C /* Base */; };
+		460E1A6B2C129C14003F065C /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 460E1A6A2C129C14003F065C /* SnapKit */; };
+		460E1A6E2C129C20003F065C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 460E1A6D2C129C20003F065C /* Alamofire */; };
+		460E1A712C129C30003F065C /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 460E1A702C129C30003F065C /* Kingfisher */; };
+		460E1A732C12A8BC003F065C /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A722C12A8BC003F065C /* Extension.swift */; };
+		460E1A752C12B91F003F065C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 460E1A742C12B91F003F065C /* .gitignore */; };
+		460E1A772C12B962003F065C /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A762C12B962003F065C /* APIKey.swift */; };
+		460E1A792C12B972003F065C /* URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460E1A782C12B972003F065C /* URL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +26,13 @@
 		460E1A552C129A42003F065C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		460E1A572C129A42003F065C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		460E1A592C129A42003F065C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		460E1A5C2C129A42003F065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		460E1A5E2C129A44003F065C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		460E1A612C129A44003F065C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		460E1A632C129A44003F065C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		460E1A722C12A8BC003F065C /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		460E1A742C12B91F003F065C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		460E1A762C12B962003F065C /* APIKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		460E1A782C12B972003F065C /* URL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URL.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				460E1A712C129C30003F065C /* Kingfisher in Frameworks */,
+				460E1A6B2C129C14003F065C /* SnapKit in Frameworks */,
+				460E1A6E2C129C20003F065C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +52,7 @@
 		460E1A492C129A42003F065C = {
 			isa = PBXGroup;
 			children = (
+				460E1A742C12B91F003F065C /* .gitignore */,
 				460E1A542C129A42003F065C /* LottoApp */,
 				460E1A532C129A42003F065C /* Products */,
 			);
@@ -59,10 +72,12 @@
 				460E1A552C129A42003F065C /* AppDelegate.swift */,
 				460E1A572C129A42003F065C /* SceneDelegate.swift */,
 				460E1A592C129A42003F065C /* ViewController.swift */,
-				460E1A5B2C129A42003F065C /* Main.storyboard */,
 				460E1A5E2C129A44003F065C /* Assets.xcassets */,
 				460E1A602C129A44003F065C /* LaunchScreen.storyboard */,
 				460E1A632C129A44003F065C /* Info.plist */,
+				460E1A722C12A8BC003F065C /* Extension.swift */,
+				460E1A762C12B962003F065C /* APIKey.swift */,
+				460E1A782C12B972003F065C /* URL.swift */,
 			);
 			path = LottoApp;
 			sourceTree = "<group>";
@@ -83,6 +98,11 @@
 			dependencies = (
 			);
 			name = LottoApp;
+			packageProductDependencies = (
+				460E1A6A2C129C14003F065C /* SnapKit */,
+				460E1A6D2C129C20003F065C /* Alamofire */,
+				460E1A702C129C30003F065C /* Kingfisher */,
+			);
 			productName = LottoApp;
 			productReference = 460E1A522C129A42003F065C /* LottoApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,11 @@
 				Base,
 			);
 			mainGroup = 460E1A492C129A42003F065C;
+			packageReferences = (
+				460E1A692C129C14003F065C /* XCRemoteSwiftPackageReference "SnapKit" */,
+				460E1A6C2C129C20003F065C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				460E1A6F2C129C30003F065C /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 460E1A532C129A42003F065C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,8 +151,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				460E1A5F2C129A44003F065C /* Assets.xcassets in Resources */,
+				460E1A752C12B91F003F065C /* .gitignore in Resources */,
 				460E1A622C129A44003F065C /* Base in Resources */,
-				460E1A5D2C129A42003F065C /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,20 +166,15 @@
 				460E1A5A2C129A42003F065C /* ViewController.swift in Sources */,
 				460E1A562C129A42003F065C /* AppDelegate.swift in Sources */,
 				460E1A582C129A42003F065C /* SceneDelegate.swift in Sources */,
+				460E1A732C12A8BC003F065C /* Extension.swift in Sources */,
+				460E1A772C12B962003F065C /* APIKey.swift in Sources */,
+				460E1A792C12B972003F065C /* URL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		460E1A5B2C129A42003F065C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				460E1A5C2C129A42003F065C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		460E1A602C129A44003F065C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,9 +316,8 @@
 				INFOPLIST_FILE = LottoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,9 +325,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LottoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -323,9 +346,8 @@
 				INFOPLIST_FILE = LottoApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -333,9 +355,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sesac.LottoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -361,6 +387,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		460E1A692C129C14003F065C /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		460E1A6C2C129C20003F065C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+		460E1A6F2C129C30003F065C /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		460E1A6A2C129C14003F065C /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 460E1A692C129C14003F065C /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		460E1A6D2C129C20003F065C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 460E1A6C2C129C20003F065C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		460E1A702C129C30003F065C /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 460E1A6F2C129C30003F065C /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 460E1A4A2C129A42003F065C /* Project object */;
 }
